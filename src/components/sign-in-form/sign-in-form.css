@@ -1,0 +1,46 @@
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.sign-in-container h2 {
+    margin: 10px 0;
+}
+
+.sign-in-container .buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input-label {
+    font-size: 16px;
+    font-weight: normal;
+    pointer-events: none;
+    transition: 300ms ease all;
+    margin-bottom: 15px;
+}
+
+.group {
+    position: relative;
+    margin: 45px 0;
+}
+
+.group .form-input {
+    color: grey;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    margin: 0;
+}
+
+.group .form-input:focus {
+    outline: none;
+}
+
+input[type='password'] {
+    letter-spacing: 0.3em;
+}
